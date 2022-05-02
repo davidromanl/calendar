@@ -24,20 +24,16 @@
           </div>
       </div>
       <div class="columns-2">
-          <div class="col">
             <Calendar
               @setDay="setDay"
               :dropOff="dropOff"
               :pickUp="pickUp"
               :refDate="refDate(month)"/>
-          </div>
-          <div class="col">
             <Calendar
               @setDay="setDay"
               :dropOff="dropOff"
               :pickUp="pickUp"
               :refDate="refDate(month + 1)"/>
-          </div>
       </div>
     </div>
   </div>
